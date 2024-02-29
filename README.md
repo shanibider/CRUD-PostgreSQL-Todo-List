@@ -1,9 +1,9 @@
-# Permanent todo list
+# Permanent Todo List - Full Stack Project 🗒️
 
 This JavaScript project utilizes Express, Axios, EJS templates, HTML, and a PostgreSQL database with pgAdmin.
 The main focus is on storing and managing data efficiently in PostgreSQL.
 
-## Key Features:
+## Key Features 📌
 
 - [ ] Express Server: Handles HTTP requests and responses.
 - [ ] Axios for API Requests: Streamlines communication between client and server.
@@ -13,7 +13,16 @@ The main focus is on storing and managing data efficiently in PostgreSQL.
 - [ ] pgAdmin Management: Powerful tool for administering the PostgreSQL database.
 
 ### built using:
-[![My Skills](https://skillicons.dev/icons?i=js,react,html,css,postgresql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=postgresql,js,react,html,css)](https://skillicons.dev)
+
+<br>
+
+## PostgreSQL Database 🗂️ -
+PostgreSQL is a powerful, open-source object-relational database system known for its reliability, robust feature set, and extensibility. It provides ACID compliance, support for foreign keys, triggers, stored procedures, and extensive data type support.
+
+## pgAdmin 🗂️ -
+pgAdmin is a feature-rich PostgreSQL administration and development tool that provides a graphical interface for managing PostgreSQL databases. It offers database management, query execution, data visualization, user management, backup and restore functionalities, and support for extensions and plugins.
+
 
 <br>
 
@@ -21,8 +30,10 @@ The main focus is on storing and managing data efficiently in PostgreSQL.
 
 ## Preview
 ![permalist](https://github.com/shanibider/Permanent-Todo-List/assets/72359805/e707d87d-c1f6-4900-8341-d372e841188d)
-
 <br>
+
+### pgAdmin Tool -
+![pgAdmin_permalist](https://github.com/shanibider/Fullstack-Permanent-Todo-List/assets/72359805/13128299-4097-4ae9-9a87-9c1c8867e443)
 
 
 ## work flow 
@@ -45,7 +56,7 @@ The main focus is on storing and managing data efficiently in PostgreSQL.
 <br>
 
 
-## Running locally
+## Running locally 🖥️
 
 Install the required node.js modules:
 
@@ -66,10 +77,9 @@ Your server is now running on: [http://localhost:3000](http://localhost:3000)
 <br>
 
 ## 🔗 Connect with me 👩‍💻😊
-<p align="left">
-<a href="https://linkedin.com/in/shanibider" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shanibider" height="30" width="40" /></a>
-<a style="margin-left: 145x;" href="mailto:shanibider@gmail.com"><img align="center" src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png" alt="shanibider@gmail.com" height="40" width="40" /></a>
-</p>
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shani-bider/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shanibider.github.io/Portfolio/)
+[![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shanibider@gmail.com)
 
 <br>
 
