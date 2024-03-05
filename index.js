@@ -7,8 +7,9 @@ import bodyParser from "body-parser";
 import pg from "pg";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000; // Use the PORT provided by the environment or default to 3000
 
+/*
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
@@ -17,6 +18,18 @@ const db = new pg.Client({
   port: 5432,
 });
 db.connect();
+*/
+
+const db = new pg.Client({
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_DATABASE,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
+});
+db.connect();
+
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
