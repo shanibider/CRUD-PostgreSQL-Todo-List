@@ -1,62 +1,32 @@
-# Permanent Todo List - Full Stack Project 🗒️
+# PERN Todo List App 📝
 
-This JavaScript project utilizes Express, Axios, EJS templates, HTML, and a PostgreSQL database with pgAdmin.
-The main focus is on storing and managing data efficiently in PostgreSQL.
+This Full Stack project employs the ***PERN stack***, comprising PostgreSQL database (with pgAdmin), Express, React, and Node.js. The application facilitates efficient task management, allowing users to organize their to-dos seamlessly.
 
-## Key Features 📌
-
-- [ ] Express Server: Handles HTTP requests and responses.
-- [ ] Axios for API Requests: Streamlines communication between client and server.
-- [ ] EJS Templates: Enables dynamic HTML rendering for a responsive UI.
-- [ ] HTML Interface: User-friendly design for seamless interaction.
-- [ ] PostgreSQL Database: Ensures reliable data storage and organization.
-- [ ] pgAdmin Management: Powerful tool for administering the PostgreSQL database.
-
-### built using:
-[![My Skills](https://skillicons.dev/icons?i=postgresql,js,react,html,css)](https://skillicons.dev)
-
-<br>
-
-## PostgreSQL Database 🗂️ -
-PostgreSQL is a powerful, open-source object-relational database system known for its reliability, robust feature set, and extensibility. It provides ACID compliance, support for foreign keys, triggers, stored procedures, and extensive data type support.
-
-## pgAdmin 🗂️ -
-pgAdmin is a feature-rich PostgreSQL administration and development tool that provides a graphical interface for managing PostgreSQL databases. It offers database management, query execution, data visualization, user management, backup and restore functionalities, and support for extensions and plugins.
-
-
-<br>
+![pern](https://github.com/shanibider/PERN-PostgreSQL-Todo-List/assets/72359805/5ad2c5e2-11f4-4b4b-bf4b-20e8e604edae)
 
 
 
-## Preview
-![permalist](https://github.com/shanibider/Permanent-Todo-List/assets/72359805/e707d87d-c1f6-4900-8341-d372e841188d)
-<br>
+## Key Features 🚀
 
-### pgAdmin Tool -
-![pgAdmin_permalist](https://github.com/shanibider/Fullstack-Permanent-Todo-List/assets/72359805/13128299-4097-4ae9-9a87-9c1c8867e443)
+- [ ] **Express Server**: Manages HTTP requests and responses, ensuring smooth communication between the client and server.
+- [ ] **Axios for API Requests**: Simplifies data exchange between the client-side React application and the server.
+- [ ] **React Components**: Utilizes reusable components for building a dynamic and responsive user interface.
+- [ ] **Node.js Backend**: Employs Node.js for server-side logic, enhancing the scalability and performance of the application.
+- [ ] **PostgreSQL Database**: Stores and organizes data reliably, ensuring data integrity and consistency.
+- [ ] **pgAdmin Management**: Leverages pgAdmin for efficient administration and maintenance of the PostgreSQL database.
 
+## Technologies Used 💻
+[![My Skills](https://skillicons.dev/icons?i=postgresql,express,nodejs,js,react,html,css)](https://skillicons.dev)
 
-## work flow 
-- [x] Data Input:
-- Users interact with the HTML interface.
-- Axios sends requests to the Express server for data submission.
-
-- [x] Server-Side Processing:
-- Express processes requests, validates and sanitizes data.
-- EJS templates dynamically generate HTML pages based on user actions.
-
-- [x] Database Interaction:
-- Data is stored in PostgreSQL via SQL queries.
-- pgAdmin manages and visualizes the database.
-
-- [x] Data Retrieval:
-- Users retrieve stored data through the HTML interface
-- Axios communicates with the server to fetch data from PostgreSQL.
-
-<br>
+- [ ] **Express**: A minimalist web application framework for Node.js, facilitating the creation of robust APIs and web servers.
+- [ ] **React**: A JavaScript library for building interactive user interfaces, enabling the creation of single-page applications with ease.
+- [ ] **Node.js**: A JavaScript runtime environment that executes server-side code, allowing developers to build scalable and high-performance applications.
+- [ ] **PostgreSQL**: An open-source relational database management system known for its reliability, extensibility, and comprehensive feature set.
+- [ ] **pgAdmin**: A graphical administration tool for PostgreSQL databases, offering a user-friendly interface for database management and development.
 
 
-## Running locally 🖥️
+
+## Running locally  🛠️
 
 Install the required node.js modules:
 
@@ -72,7 +42,32 @@ nodemon index.js
 
 Your server is now running on: [http://localhost:3000](http://localhost:3000)
 
+<br>
 
+## PostgreSQL Database 🗄️
+
+PostgreSQL is a robust, open-source relational database management system renowned for its reliability, extensibility, and adherence to SQL standards. It offers advanced features such as ACID compliance, support for complex data types, and a strong focus on data integrity.
+
+## pgAdmin 🛠️
+
+pgAdmin is a comprehensive PostgreSQL administration and development platform that provides a graphical interface for managing databases. It offers a wide range of features including database management, query execution, data visualization, user management, and backup/restore functionality, enhancing the efficiency of database administration tasks.
+
+<br>
+
+
+## Preview
+![permalist](https://github.com/shanibider/Permanent-Todo-List/assets/72359805/e707d87d-c1f6-4900-8341-d372e841188d)
+<br>
+
+### pgAdmin Tool -
+![pgAdmin_permalist](https://github.com/shanibider/Fullstack-Permanent-Todo-List/assets/72359805/13128299-4097-4ae9-9a87-9c1c8867e443)
+
+
+<br>
+
+## Get Started 🚀
+
+Ready to dive in? Follow the installation guide above and start managing your tasks efficiently with the PERN Todo List App!
 
 <br>
 
