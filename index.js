@@ -5,9 +5,12 @@
 import express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
+import dotenv from 'dotenv';
 
 const app = express();
 const port = process.env.PORT || 3000; // Use the PORT provided by the environment or default to 3000
+
+dotenv.config();
 
 /*
 const db = new pg.Client({
@@ -24,12 +27,12 @@ const db = new pg.Client({
   user: process.env.DB_USER,
   host: process.env.DB_HOST,
   database: process.env.DB_DATABASE,
-  password: process.env.DB_PASSWORD,
+  password: String(process.env.DB_PASSWORD), // Convert to string
   port: process.env.DB_PORT,
 });
 db.connect();
 
-
+console.log(String(process.env.DB_PASSWORD));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
@@ -39,13 +42,22 @@ let items = [
   { id: 2, title: "Finish homework" },
 ];
 
+
+const currentDate = () => {
+  const date = new Date();
+  const day = date.getDate().toString().padStart(2, "0");
+  const month = (date.getMonth() + 1).toString().padStart(2, "0"); // Month is zero-based, so we add 1
+  return `${day}.${month}`;
+};
+
+
 app.get("/", async (req, res) => {
   try {
     const result = await db.query("SELECT * FROM items ORDER BY id ASC");
     items = result.rows;
 
     res.render("index.ejs", {
-      listTitle: "Today",
+      listTitle: currentDate() + " To-Do List",
       listItems: items,
     });
   } catch (err) {
