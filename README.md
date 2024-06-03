@@ -1,8 +1,12 @@
-# PERN Todo List App 📝
+# Node.js CRUD Todo List App 📝
 
-This Full Stack project employs the ***PERN stack***, comprising PostgreSQL database (with pgAdmin), Express, React, and Node.js. The application facilitates efficient task management, allowing users to organize their to-dos seamlessly.
+<div align="center">
+<img height="350px" src="https://github.com/shanibider/ANASTACIA-MERN-ECOMMERCE-WEBSITE/assets/72359805/9717a097-24f9-4175-af71-1b3ebac20dc3">
+</div>
 
-![pern](https://github.com/shanibider/PERN-PostgreSQL-Todo-List/assets/72359805/5ad2c5e2-11f4-4b4b-bf4b-20e8e604edae)
+This Full Stack project utilizes -
+#### PostgreSQL database, Express, Node.js, and EJS templating <img height=20px src="https://skillicons.dev/icons?i=js"> <img height=20px src="https://skillicons.dev/icons?i=postgresql"> <img height=20px src="https://skillicons.dev/icons?i=express"> <img height=20px src="https://skillicons.dev/icons?i=nodejs">
+for efficient task management. Users can seamlessly organize their to-dos with this application.
 
 
 
@@ -10,16 +14,15 @@ This Full Stack project employs the ***PERN stack***, comprising PostgreSQL data
 
 - [ ] **Express Server**: Manages HTTP requests and responses, ensuring smooth communication between the client and server.
 - [ ] **Axios for API Requests**: Simplifies data exchange between the client-side React application and the server.
-- [ ] **React Components**: Utilizes reusable components for building a dynamic and responsive user interface.
+- [ ] **EJS Templating**: Utilizes EJS templating for rendering dynamic server-side views.
 - [ ] **Node.js Backend**: Employs Node.js for server-side logic, enhancing the scalability and performance of the application.
 - [ ] **PostgreSQL Database**: Stores and organizes data reliably, ensuring data integrity and consistency.
 - [ ] **pgAdmin Management**: Leverages pgAdmin for efficient administration and maintenance of the PostgreSQL database.
 
 ## Technologies Used 💻
-[![My Skills](https://skillicons.dev/icons?i=postgresql,express,nodejs,js,react,html,css)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=postgresql,express,nodejs,js,html,css)](https://skillicons.dev)
 
 - [ ] **Express**: A minimalist web application framework for Node.js, facilitating the creation of robust APIs and web servers.
-- [ ] **React**: A JavaScript library for building interactive user interfaces, enabling the creation of single-page applications with ease.
 - [ ] **Node.js**: A JavaScript runtime environment that executes server-side code, allowing developers to build scalable and high-performance applications.
 - [ ] **PostgreSQL**: An open-source relational database management system known for its reliability, extensibility, and comprehensive feature set.
 - [ ] **pgAdmin**: A graphical administration tool for PostgreSQL databases, offering a user-friendly interface for database management and development.
