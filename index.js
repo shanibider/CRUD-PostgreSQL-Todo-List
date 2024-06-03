@@ -24,11 +24,11 @@ db.connect();
 */
 
 const db = new pg.Client({
-  database: process.env.DB_DATABASE,
-  host: process.env.DB_HOST,
-  password: process.env.DB_PASSWORD, 
-  port: process.env.DB_PORT,
   user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_DATABASE,
+  password: String(process.env.DB_PASSWORD), // Convert to string
+  port: process.env.DB_PORT,
 });
 db.connect();
 
